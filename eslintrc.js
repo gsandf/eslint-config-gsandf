@@ -8,6 +8,7 @@ module.exports = {
   extends: 'standard',
 
   rules: {
+    camelcase: ['error', { properties: 'always' }],
     'no-var': ['error'],
     'prefer-const': ['error'],
     semi: ['error', 'always'],
