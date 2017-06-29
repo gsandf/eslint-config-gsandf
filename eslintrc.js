@@ -14,9 +14,9 @@ module.exports = {
     'prefer-const': ['error'],
     semi: ['error', 'always'],
     'sort-keys': ['error', 'asc', {
-      'caseSensitive': false,
-      'natural': false
-    }]
+      caseSensitive: false,
+      natural: false
+    }],
     'space-before-function-paren': ['error', {
         anonymous: 'always',
         asyncArrow: 'always',
