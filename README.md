@@ -1,5 +1,7 @@
 # eslint-config-gsandf
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gsandf/eslint-config-gsandf.svg)](https://greenkeeper.io/)
+
 > GS&F's extendable ESLint configuration (full config with dependencies)
 
 ## Usage
