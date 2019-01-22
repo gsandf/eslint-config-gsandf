@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gsandf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GS&F's extendable ESLint configuration (full config with dependencies)",
   "main": "eslintrc.js",
   "repository": "https://github.com/gsandf/eslint-config-gsandf.git",
