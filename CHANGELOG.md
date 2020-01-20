@@ -17,14 +17,12 @@
 
 ### Changed
 
-- The [camelcase](https://eslint.org/docs/rules/camelcase) rule is now more
-  lenient. This should result in fewer errors when working with, for example,
-  HTTP headers or external libraries that use snake case.
+- ✨ Uses [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier) to stop conflicts between ESLint and Prettier.
+- The [camelcase](https://eslint.org/docs/rules/camelcase) rule is now more lenient. This should result in fewer errors when working with, for example, HTTP headers or external libraries that use snake case.
 
 ### Removed
 
-- Disabled the [sort-keys](https://eslint.org/docs/rules/sort-keys) rule. This
-  was removed to reduce time spent doing stylistic tweaks.
+- Disabled the [sort-keys](https://eslint.org/docs/rules/sort-keys) rule. This was removed to reduce time spent doing stylistic tweaks.
 
 ## [1.0.1]
 
@@ -37,8 +35,7 @@
 ### Added
 
 - Create project setup with README, etc.
-- Create first configuration, mostly just extending
-  [`eslint-config-standard`](https://github.com/standard/eslint-config-standard)
+- Create first configuration, mostly just extending [`eslint-config-standard`](https://github.com/standard/eslint-config-standard)
 
 [unreleased]: https://github.com/gsandf/eslint-config-gsandf/compare/v1.0.0...HEAD
 [1.0.1]: https://github.com/gsandf/eslint-config-gsandf/compare/v1.0.0...v1.0.1
