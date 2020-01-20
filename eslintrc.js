@@ -22,6 +22,7 @@ module.exports = {
         asyncArrow: 'always',
         named: 'never'
       }
-    ]
+    ],
+    'comma-dangle': ['warn', 'always-multiline'],
   }
 }
