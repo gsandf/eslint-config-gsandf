@@ -7,7 +7,7 @@
   "author": "Blake Knight <bknight@gsandf.com> (http://blakek.me/)",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "3 || 4"
+    "eslint": ">=3"
   },
   "dependencies": {
     "eslint-config-standard": "^12.0.0",
