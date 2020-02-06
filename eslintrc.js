@@ -39,7 +39,6 @@ module.exports = {
     'no-debugger': ['warn'],
     'no-extra-label': ['error'],
     'no-implicit-coercion': ['warn'],
-    'no-native-reassign': ['error'],
     'no-restricted-globals': ['error'].concat(restrictedGlobals),
     'no-restricted-syntax': ['error', 'WithStatement'],
     'no-var': ['error'],
