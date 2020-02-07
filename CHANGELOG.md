@@ -14,6 +14,7 @@
 - [radix](https://eslint.org/docs/rules/radix) - ensures radix is specified (when using `as-needed`)
 - [promise/no-new-statics](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-new-statics.md) - avoids TypeErrors from calling `new` on a Promise static method
 - Created CHANGELOG.md
+- 💚 Added first tests
 
 ### Changed
 
