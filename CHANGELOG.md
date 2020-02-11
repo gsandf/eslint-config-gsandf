@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [2.0.0]
 
 ### Added
 
@@ -38,6 +38,6 @@
 - Create project setup with README, etc.
 - Create first configuration, mostly just extending [`eslint-config-standard`](https://github.com/standard/eslint-config-standard)
 
-[unreleased]: https://github.com/gsandf/eslint-config-gsandf/compare/v1.0.0...HEAD
+[2.0.0]: https://github.com/gsandf/eslint-config-gsandf/compare/v1.0.1...v2.0.0
 [1.0.1]: https://github.com/gsandf/eslint-config-gsandf/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/gsandf/eslint-config-gsandf/releases/tag/v1.0.0
