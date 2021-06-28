@@ -17,3 +17,15 @@ console.log(expires_in);
 
 // v2 allows whitelisting non-camelCase tokens
 export function UNSAFE_componentWillMount() {}
+
+// v3 allows let without reassignment
+let a = 'test';
+console.log(a);
+
+// v3 allows sparse arrays
+console.log([1, , 3]);
+
+// Allow `Array.prototype.forEach` to have no return value
+export const okayForEach = [1, 2, 3].forEach(n => {
+  console.log(n);
+});

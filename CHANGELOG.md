@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.0]
+
+### Changed
+
+- [no-sparse-arrays](https://eslint.org/docs/rules/no-sparse-arrays) has been disabled so code like `[1, , 2]` is now considered valid
+- [prefer-const](https://eslint.org/docs/rules/prefer-const) has been disabled to allow usage of `let`
+- Upgraded [Standard from v14 to v16](https://github.com/standard/standard/blob/093b05608589e9345535db1f7d61cb5c4c006829/CHANGELOG.md)
+
 ## [2.0.0]
 
 ### Added

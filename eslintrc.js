@@ -24,7 +24,6 @@ module.exports = {
   },
 
   rules: {
-    'array-callback-return': ['error'],
     camelcase: [
       'error',
       {
@@ -41,8 +40,8 @@ module.exports = {
     'no-implicit-coercion': ['warn'],
     'no-restricted-globals': ['error'].concat(restrictedGlobals),
     'no-restricted-syntax': ['error', 'WithStatement'],
-    'no-var': ['error'],
-    'prefer-const': ['error'],
+    'no-sparse-arrays': ['off'],
+    'prefer-const': ['off'],
     radix: ['error', 'as-needed'],
     'require-yield': ['error'],
     semi: ['error', 'always'],
